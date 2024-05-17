@@ -6,8 +6,10 @@
   "license": "MIT",
   "wing": true,
   "dependencies": {
+    "@cdktf/provider-aws": "^19.19.0",
     "@winglibs/vite": "^0.2.0",
     "@winglibs/websockets": "^0.3.7",
+    "aws-cdk-lib": "^2.142.1",
     "cdktf": "^0.20.7"
   }
 }
