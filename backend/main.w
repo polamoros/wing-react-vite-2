@@ -1,7 +1,6 @@
 bring cloud;
 bring expect;
 bring vite;
-// bring "./vite/vite.w" as vite;
 bring http;
 bring "./broadcaster.w" as broadcaster;
 
@@ -21,7 +20,7 @@ let website = new vite.Vite(
     TITLE: "Wing + Vite + React",
     API_URL: api.url,
     WS_URL: myBroadcaster.url
-  },
+  }
 ) as "Vite Website"; 
 
 api.get("/counter", inflight () => {
