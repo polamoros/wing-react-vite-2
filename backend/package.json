@@ -7,6 +7,7 @@
   "wing": true,
   "dependencies": {
     "@winglibs/vite": "^0.2.0",
-    "@winglibs/websockets": "^0.3.7"
+    "@winglibs/websockets": "^0.3.7",
+    "cdktf": "^0.20.7"
   }
 }

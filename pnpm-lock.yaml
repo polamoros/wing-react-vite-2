@@ -16,6 +16,9 @@ importers:
       '@winglibs/websockets':
         specifier: ^0.3.7
         version: 0.3.7(@aws-sdk/client-apigatewaymanagementapi@3.577.0)(@cdktf/provider-aws@19.19.0)(aws-cdk-lib@2.142.1)(cdktf@0.20.7)(get-port@7.1.0)(ws@8.17.0)
+      cdktf:
+        specifier: ^0.20.7
+        version: 0.20.7(constructs@10.3.0)
 
   frontend:
     dependencies:
